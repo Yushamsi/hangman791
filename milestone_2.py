@@ -1,14 +1,14 @@
 import random
 
-word_list = ['banana', 'apple', 'melon', 'grapes', 'tomato']
-print(word_list)
+fruit_list = ['banana', 'apple', 'melon', 'grapes', 'tomato']
+print(fruit_list)
 
-word = random.choice(word_list)
-print(word)
+random_word = random.choice(word_list)
+print(random_word)
 
-guess = input('Enter a single letter:')
+guessed_letter = input('Enter a single letter:')
 
-if len(guess) > 1 and guess.isalpha():
+if len(guessed_letter) == 1 and guessed_letter.isalpha():
     print("Good guess!")
 else:
     print("Oops! That is not a valid input.")
