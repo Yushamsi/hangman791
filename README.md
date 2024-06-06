@@ -7,6 +7,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 - milestone_2.py: randomly selects word from list, checks a letter is in the word  
 - milestone_3.py: adds two functions check_guess, ask_for_input
 - milestone_4.py: adds a class 'Hangman' integrates two prior functions and adds 'num_lives' and a list of "_" in length of the word trying to be guessed
+- milestone_5.py: adds function to run class, runs game successfully, prints out characters of word when filled in
 
 ## Installation & Usage
 Requires base level Python 3 ( =< 3.8) and Python dependencies.
