@@ -3,7 +3,7 @@ import random
 fruit_list = ['banana', 'apple', 'melon', 'grapes', 'tomato']
 print(fruit_list)
 
-random_word = random.choice(word_list)
+random_word = random.choice(fruit_list)
 print(random_word)
 
 guessed_letter = input('Enter a single letter:')
